@@ -1,4 +1,5 @@
-# LoginUser
+# LoginUser ***
+
 Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum.
 >Öncelikle ne oluşturmak istediğime ve nasıl görünmesini istediğime karar vermem gerekiyordu. Yaptığım araştırmalar ve hoşuma gidebilecek projelere de göz gezdirdikten sonra artık ne istediğime de karar verip başlayabilirdim.
 
