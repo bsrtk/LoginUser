@@ -1,7 +1,7 @@
 # LoginUser
 
 >Öncelikle ne oluşturmak istediğime ve nasıl görünmesini istediğime karar vermem gerekiyordu. Yaptığım araştırmalar ve hoşuma gidebilecek projelere de göz gezdirdikten sonra artık ne istediğime de karar verip başlayabilirdim.<br/>
-Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum.
+Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşuturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
 ![Login](‪C:\Users\casper\Pictures\NewProject.png)
 Zaten hazır şablona sahip bir sayfa önüme çıktı. Benim yapamam gereken sadece bu sayfanın görünümünü ve içeriğini oluşturmak oldu. Xaml komutlarıyla öncelikle sayfamın boyutuna karar vererek yapmaya başladım.
