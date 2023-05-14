@@ -18,7 +18,7 @@ Yapacağım uygulama daha doğrusu oluşturduğum bir içerik sayesinde kullanı
 
 Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
 
-
+![userpass](https://github.com/bsrtk/LoginUser/assets/101363847/ecf556a5-c7da-4c09-a07b-339f379f6422)
 
 Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
 Yapmış olduğum arayüz tasarımında en sevdiğim renkler arasında bulunan sarı ve morun tonlarını kullanmayı tercih ettim. 
