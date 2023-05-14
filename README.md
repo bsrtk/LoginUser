@@ -22,3 +22,5 @@ Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email a
 Yapmış olduğum arayüz tasarımında en sevdiğim renkler arasında bulunan sarı ve morun tonlarını kullanmayı tercih ettim. 
 Arka planda kullanmış olduğum siyahın tonlarından olan bir renk seçerek sarı ve morun daha rahat görünümünü ve göze hitap açısından da daha güzel görünmesini istedim.
 Sol tarafta bir resim kullandım. Görünüm daha çok göze hitap etmesi açısından.
+Yaptığım projede resim eklemesi gerçekleştirebilmek için bulunduğum proje üzerinde mouse sağ click yaparak ekle kısmından bir yeni klasör oluşturdum ve burdan bulmuş olduğum resmin eklmesini geçekleştirdim.
+
