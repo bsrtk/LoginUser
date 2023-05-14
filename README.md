@@ -11,6 +11,9 @@ Projeme bir isim verdim ve benim için otomatik olarak gelen en güncel sürüml
 ![NewProject2](https://github.com/bsrtk/LoginUser/assets/101363847/cd2c6116-ca6c-4a27-86e5-92ea9ceda555)
 
 Zaten hazır şablona sahip bir sayfa önüme çıktı. Benim yapamam gereken sadece bu sayfanın görünümünü ve içeriğini oluşturmak oldu. Xaml komutlarıyla öncelikle sayfamın boyutuna karar vererek yapmaya başladım.
+
+
+
 Yapacağım uygulama daha doğrusu oluşturduğum bir içerik sayesinde kullanıcılar basit bir arayüz tasarımı ile karşılaşarak kolay bir şekilde giriş yapabileceklerdir. 
 Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
 Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
