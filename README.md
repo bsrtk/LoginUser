@@ -12,10 +12,14 @@ Projeme bir isim verdim ve benim için otomatik olarak gelen en güncel sürüml
 
 Zaten hazır şablona sahip bir sayfa önüme çıktı. Benim yapamam gereken sadece bu sayfanın görünümünü ve içeriğini oluşturmak oldu. Xaml komutlarıyla öncelikle sayfamın boyutuna karar vererek yapmaya başladım.
 
-
+![NewProject3](https://github.com/bsrtk/LoginUser/assets/101363847/581a7726-9f55-4018-b40a-bbeb6133026f)
 
 Yapacağım uygulama daha doğrusu oluşturduğum bir içerik sayesinde kullanıcılar basit bir arayüz tasarımı ile karşılaşarak kolay bir şekilde giriş yapabileceklerdir. 
+
 Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
+
+
+
 Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
 Yapmış olduğum arayüz tasarımında en sevdiğim renkler arasında bulunan sarı ve morun tonlarını kullanmayı tercih ettim. 
 Arka planda kullanmış olduğum siyahın tonlarından olan bir renk seçerek sarı ve morun daha rahat görünümünü ve göze hitap açısından da daha güzel görünmesini istedim.
