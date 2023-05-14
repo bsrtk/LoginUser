@@ -5,7 +5,9 @@
 Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşuturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
 ![NewProject](https://github.com/bsrtk/LoginUser/assets/101363847/93d0763e-fcbf-42c9-a07e-72d74d7ff9ea)
+
 Zaten hazır şablona sahip bir sayfa önüme çıktı. Benim yapamam gereken sadece bu sayfanın görünümünü ve içeriğini oluşturmak oldu. Xaml komutlarıyla öncelikle sayfamın boyutuna karar vererek yapmaya başladım.
+
 Yapacağım uygulama daha doğrusu oluşturduğum bir içerik sayesinde kullanıcılar basit bir arayüz tasarımı ile karşılaşarak kolay bir şekilde giriş yapabileceklerdir. 
 Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
 Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
