@@ -24,3 +24,5 @@ Arka planda kullanmış olduğum siyahın tonlarından olan bir renk seçerek sa
 Sol tarafta bir resim kullandım. Görünüm daha çok göze hitap etmesi açısından.
 Yaptığım projede resim eklemesi gerçekleştirebilmek için bulunduğum proje üzerinde mouse sağ click yaparak ekle kısmından bir yeni klasör oluşturdum ve burdan bulmuş olduğum resmin eklmesini geçekleştirdim.
 
+![klasor olustur](https://github.com/bsrtk/LoginUser/assets/101363847/95907344-dd52-480c-88b0-e66f899387d7)
+
