@@ -23,7 +23,7 @@ Yaptığım projede resim eklemesi gerçekleştirebilmek için bulunduğum proje
 
 
 Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
-<p align="center">
+<p align="left">
   <img src="https://github.com/bsrtk/LoginUser/assets/101363847/ecf556a5-c7da-4c09-a07b-339f379f6422"  width="250" height="200" />
  </p>
 Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
