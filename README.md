@@ -4,7 +4,7 @@
 
 Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşuturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
-
+![NewProject](https://github.com/bsrtk/LoginUser/assets/101363847/97621ae8-8e55-4bfb-8b68-93f0c9081469)
 
 Projeme bir isim verdim ve benim için otomatik olarak gelen en güncel sürümle devam ederek oluştur dedim ve projeyi yapma aşamasına artık geçebiliriz.
 
