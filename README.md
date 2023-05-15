@@ -21,8 +21,8 @@ Yaptığım projede resim eklemesi gerçekleştirebilmek için bulunduğum proje
 
 ![klasor olustur](https://github.com/bsrtk/LoginUser/assets/101363847/95907344-dd52-480c-88b0-e66f899387d7)
 
-Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
 
+Kullanıcıdan isteyeceğim bilgiler bir **kullanıcı adı** veya bir **Email adresi** olacak ilk sorumda ikinci sorumda ise kullanıcının bir şifre girmesi olacaktır.
 ![userpass](https://github.com/bsrtk/LoginUser/assets/101363847/ecf556a5-c7da-4c09-a07b-339f379f6422) Kullanıcıdan isteyeceğim şifre kullanıcın girmiş olduğu bilgilerinin korunmasını sağlayacaktır.
 Yapmış olduğum arayüz tasarımında en sevdiğim renkler arasında bulunan sarı ve morun tonlarını kullanmayı tercih ettim. 
 Arka planda kullanmış olduğum siyahın tonlarından olan bir renk seçerek sarı ve morun daha rahat görünümünü ve göze hitap açısından da daha güzel görünmesini istedim. Sizinde projenizi oluştururken kullanmak istediğiniz farklı renk tonları olabilir. Birçok renk çeşitliliğinin bulunduğu Color pallete diyerek arama çubuğunda aratırsanız kodlarına rahatlıkla ulaşabilirsiniz.
