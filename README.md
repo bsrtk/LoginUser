@@ -2,7 +2,7 @@
 
 >Öncelikle ne oluşturmak istediğime ve nasıl görünmesini istediğime karar vermem gerekiyordu. Yaptığım araştırmalar ve hoşuma gidebilecek projelere de göz gezdirdikten sonra artık ne istediğime de karar verip başlayabilirdim.😎
 
-Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
+Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 💕
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşuturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
 ![NewProject](https://github.com/bsrtk/LoginUser/assets/101363847/97621ae8-8e55-4bfb-8b68-93f0c9081469)
 
