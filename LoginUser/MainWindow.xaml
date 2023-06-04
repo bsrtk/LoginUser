@@ -216,7 +216,7 @@
 
                 <!--Inputlar-->
                 <StackPanel VerticalAlignment="Center"
-                                    Margin="75 0">
+                            Margin="75 0">
 
                     <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}"
                              Text="BusraOral_bo"
