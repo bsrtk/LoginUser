@@ -12,10 +12,12 @@ Yaptığım projenin amacı bir nevi kullanıcı girişi ancak ben bunu günüm�
 gibi özelliklere sahiptir.
 
 ## Uygulama Adımları:
-- [X] Visual Studio kurulumu gerçekleştirmek.
+- [ ] Visual Studio kurulumu gerçekleştirmek.
 - [ ] Daha sonra **WPF Application(.NET Framework)** sayfa oluşturmak.
 - [ ] Proje isim ver ve projeye geç.
-
+- [ ] Kodları yazmaya başlaç
+- [ ] NuGet paketlerinden MaterialDesignThemes paketini indir.
+- [ ] Sonra kod yazmaya devam önemli ipuçları altta bulunucaktır. Sayfayı takip edin.
 
 Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
