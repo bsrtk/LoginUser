@@ -32,6 +32,7 @@ Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşt
 
 ![NewProject3](https://github.com/bsrtk/LoginUser/assets/101363847/581a7726-9f55-4018-b40a-bbeb6133026f)
 
+
 Uygulamada yapacağımız arayüzün boyutunu, genişliğini, arayüz çalıştırıldığında hangi konumda çalışacağını, kullanacağımız yazı stilini, arka plan rengi gibi ayarlamaları öncellikle yapıyoruz.
 
 ```
@@ -46,8 +47,30 @@ Uygulamada yapacağımız arayüzün boyutunu, genişliğini, arayüz çalışt�
         FontFamily="{DynamicResource MaterialDesignFont}
 ```
 
+Daha sonra uygulama sayfasının margin yani kenar boşlukları ve kenarlara uygulanacak efektleri yazdırıyorum.
 
+```
+<Grid Margin="20">
 
+        <Grid.Effect>
+
+            <DropShadowEffect BlurRadius="30"
+                              ShadowDepth="1"
+                              Opacity="0.4" />
+
+        </Grid.Effect>
+```
+
+Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazıların bulunduğu kısım olurken diğer taraf kullanıcının girişini yapacağı bölüm olacak.
+
+```
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1.22*" />
+
+        </Grid.ColumnDefinitions>
+```
 
 
 
