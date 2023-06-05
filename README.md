@@ -7,9 +7,15 @@ Yaptığım projenin amacı bir nevi kullanıcı girişi ancak ben bunu günüm�
 ## Ana Özellikleri:
 - Basit bir arayüze sahip olması,
 - Sade ve anlaşılır bir anlatıma sahip olması,
-- Arayüzün birden fazla kez kullanılabir olması 
+- Arayüzün birden fazla kez kullanılabilir olması 
 
 gibi özelliklere sahiptir.
+
+## Uygulama Adımları:
+-[] Visual Studio kurulumu gerçekleştirmek.
+-[] Daha sonra **WPF Application(.NET Framework)** sayfa oluşturmak.
+-[] Proje isim ver ve projeye geç.
+
 
 Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşturdum. 
 **Visual Studio 2022** kod yazma uygulamasını kullanarak oluşturmak istediğim projeyi yapabilmek için öncellikle bir **WPF Application(.NET Framework)** sayfası oluşturarak işe başladım. 
