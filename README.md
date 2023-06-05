@@ -32,3 +32,38 @@ Oluşturduğum sayfayı **WPF platformunu kullanarak Xaml komutlarıyla** oluşt
 
 ![NewProject3](https://github.com/bsrtk/LoginUser/assets/101363847/581a7726-9f55-4018-b40a-bbeb6133026f)
 
+- Uygulamada yapacağımız arayüzün boyutunu, genişliğini, arayüz çalıştırıldığında hangi konumda çalışacağını, kullanacağımız yazı stilini, arka plan rengi gibi ayarlamaları öncellikle yapıyoruz.
+'''
+        Height="645"
+        Width="875"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        FontSize="18"
+        FontFamily="{DynamicResource MaterialDesignFont}
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
