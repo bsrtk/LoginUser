@@ -12,7 +12,7 @@ Yaptığım projenin amacı bir nevi kullanıcı girişi ancak ben bunu günüm�
 gibi özelliklere sahiptir.
 
 ## Uygulama Adımları:
-- [ ] Visual Studio kurulumu gerçekleştirmek.
+- [X] Visual Studio kurulumu gerçekleştirmek.
 - [ ] Daha sonra **WPF Application(.NET Framework)** sayfa oluşturmak.
 - [ ] Proje isim ver ve projeye geç.
 
