@@ -139,6 +139,8 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
                 MouseDown="Border_MouseDown">
 ```
 
+>`MainWindow.xaml.cs` sayfamızdan MouseDown'un aktifliğini sağlamak için bir takım kod yazmamız gerekiyor. Ve **DragMove()** özelliği ile bir pencerenin, farenin sol düğmesiyle pencerenin istemci alanının açıkta kalan bir alanı üzerinde aşağı doğru sürüklenmesine izin vermiş oluruz.
+
 **Kapama ikonlarına** gelecek olursak bu kısımda `materialDesign` paketinin yüklü olmuş olması gerekiyor. Yani:
 
 ![NuGet](https://github.com/bsrtk/LoginUser/assets/101363847/8d0f04d1-87e8-4b9b-bb88-0b5c7bb63ec7)
@@ -146,6 +148,60 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
 > Aşağıdaki resimde de görmüş olduğunuz gibi ben 4.9.0'lık güncel sürümün 4.4.0'lık versiyonunu indirdim çünkü bu pakette aradığım özellikler bulunuyor.
  
 ![materialDesign](https://github.com/bsrtk/LoginUser/assets/101363847/e232649d-2624-4933-9a9e-41fe2ded9192)
+
+Şimdi de materialDesign paketinden PackIcon paketini kullanarak türü `Close` yaparak bu ikonu oluşturmaya başlıyoruz. 
+
+```
+                <materialDesign:PackIcon Kind="Close"
+                                         VerticalAlignment="Top"
+                                         Width="20"
+                                         Height="20"
+                                         HorizontalAlignment="Right"
+                                         Opacity="0.3"
+                                         Margin="0 13 14 0" />
+```
+
+Inputlarımıza geldi şimdi de sıra. `TextBox` özelliğini kullanarak arayüzümüze düğünümüze gelecek olan kişilerin isimlerini yazacakları ya da karşı tarafla iletişimi sağlayabilmek amacıyla kullanıcının girmesini istediğimiz bir Email adresi bulunmakta ve son olarak `PasswordBox` özelliğini kullanarak düğünümüze davetli kişilerin sistem güvenliğini sağlamak açısından da düğüm davetlilerine özel verilmiş olan parolayı girmeleri gerekmektedir.
+
+```
+                    <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             Text="BusraOral_bo"
+                             materialDesign:HintAssist.Hint="𝐷𝑎𝑣𝑒𝑡𝑙𝑖𝑛𝑖𝑛 𝐴𝑑𝑖 𝑆𝑜𝑦𝑎𝑑𝑖"
+                             materialDesign:HintAssist.FloatingOffset="0,-20"
+                             BorderBrush="#c5c8cc"
+                             BorderThickness="0 0 0 1.5" />
+```
+
+```
+                    <PasswordBox Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                                 Password="12345678"
+                                 materialDesign:HintAssist.Hint="𝑃𝑎𝑟𝑜𝑙𝑎"
+                                 materialDesign:HintAssist.FloatingOffset="0,-18"
+                                 BorderBrush="#c5c8cc"
+                                 BorderThickness="0 0 0 1.5" />
+```
+
+Daha sonra `CheckBox` özelliği ile gelecek olan kişinin bizim tarafımızdan belirlenen şartları kabul ettiğine dair (mesela; düğüne gelecek kişinin en az bir kere mutlaka halaya katılmasını istediğimiz gibi 😆) bir işaretleme yapması gereken bölmemiz bulunmaktadır.
+
+```
+                    <CheckBox Margin="0 40 0 20"
+                              FontSize="13">
+
+                        <TextBlock>
+                                    
+                            <Run Foreground="#b6b6b6">İmzalayarak katılıyorum</Run>
+                            <Run Foreground="#07bf96">şartlar ve koşullar</Run>
+
+                        </TextBlock>
+
+                    </CheckBox>
+```
+
+> `_App.xaml_` sayfasından bu yazdığımız kodların aktifliğini sağlamak için aşağıda yazan kodun bu sayfa içerisinde aktifleştirilmiş olması  gerekiyor. Bu aktifleştirme için de `xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"` eklememiz gerekiyor.
+
+```
+ <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+```
 
 
 
