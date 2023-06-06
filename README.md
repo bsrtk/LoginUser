@@ -143,6 +143,9 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
 
 ![NuGet](https://github.com/bsrtk/LoginUser/assets/101363847/8d0f04d1-87e8-4b9b-bb88-0b5c7bb63ec7)
 
+> Aşağıdaki resimde de görmüş olduğunuz gibi ben 4.9.0'lık güncel sürümün 4.4.0'lık versiyonunu indirdim çünkü bu pakette aradığım özellikler bulunuyor.
+ 
+![materialDesign](https://github.com/bsrtk/LoginUser/assets/101363847/e232649d-2624-4933-9a9e-41fe2ded9192)
 
 
 
