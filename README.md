@@ -89,7 +89,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
 ```
 
 
-Şimdi de sol bölmede yer alacak başlık ayarlamalarını yapmaya geldi sıra. `StackPannel` kod bloğunu kullanarak sol bölmede yazıların nasıl hizalanacağını(VerticalAligmnet), yazı boyutunu(FontSize), yazı boyutu ağırlığını(FontWeight), yazıyı(Text), yazı rengini belirtmek için(Foreground) ve son olarak da yazının nerde bulunacağını(TextAligment) belirleyerek projemizi oluşturmaya devam ediyoruz. Bu kısımda böylelikle arayüzde bulunan yazıların bütün özellikleri hazırlanmış oldu.
+Şimdi de sol bölmede yer alacak başlık ayarlamalarını yapmaya geldi sıra. `StackPannel` kod bloğunu kullanarak sol bölmede yazıların nasıl hizalanacağını **_(VerticalAligmnet)_**, yazı boyutunu **_(FontSize)_**, yazı boyutu ağırlığını _**(FontWeight)_**, yazıyı (Text), yazı rengini belirtmek için(Foreground) ve son olarak da yazının nerde bulunacağını(TextAligment) belirleyerek projemizi oluşturmaya devam ediyoruz. Bu kısımda böylelikle arayüzde bulunan yazıların bütün özellikleri hazırlanmış oldu.
 
 ```
                 <StackPanel Margin="0 120 0 0 "
