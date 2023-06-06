@@ -197,13 +197,13 @@ Daha sonra `CheckBox` özelliği ile gelecek olan kişinin bizim tarafımızdan 
                     </CheckBox>
 ```
 
-> `_App.xaml_` sayfasından bu yazdığımız kodların aktifliğini sağlamak için aşağıda yazan kodun bu sayfa içerisinde aktifleştirilmiş olması  gerekiyor. Bu aktifleştirme için de `xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"` eklememiz gerekiyor.
+> `App.xaml` sayfasından bu yazdığımız kodların aktifliğini sağlamak için aşağıda yazan kodun bu sayfa içerisinde aktifleştirilmiş olması  gerekiyor. Bu aktifleştirme için de `xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"` eklememiz gerekiyor.
 
 ```
  <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
 ```
 
-
+Daha sonra da tek yapmamız gereken uygulamayı çalıştırmak oluyor.🤩 Bu şekilde düğünümüze gelecek kişilere tek tek davetiye dağıtımı için harcanan süreden, giden nakit paradan, bu davetiyeleri oluşturmak için kullanılan malzemeden de tasaruf sağlamış oluyoruz. Basit ama yakın gelecekte aktif olarak kullanılmasını ön görmekteyim. 
 
 
 
