@@ -128,7 +128,7 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
                          Opacity="0.6" />
 ```
 
->Uygulamada görsel anlamda daha etkin kılabilmek için renki bir tike sahip buton oluşturdum.
+>Uygulamada görsel anlamda daha etkin kılabilmek için renkli tike sahip bir buton oluşturdum.
 
 Şimdi de sıra **sağ işlemler** adımıyla devam ediyoruz. Burda da hemen hemen benzer adımlarla işlem basamaklarına devam ediyoruz. Kenarlıklara tıklandığında hareket ettirebilmek **_(MouseDown)_** özelliğini kullanarak kenarlar üzerinde hareket işlemini tamamlamış oluyoruz. 
 
@@ -139,7 +139,8 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
                 MouseDown="Border_MouseDown">
 ```
 
-**Kapama ikonlarına** gelecek olursak bu kısımda `materialDEsign` paketinin yüklü olmuş olması gerekiyor. Yani:
+**Kapama ikonlarına** gelecek olursak bu kısımda `materialDesign` paketinin yüklü olmuş olması gerekiyor. Yani:
+
 
 
 
