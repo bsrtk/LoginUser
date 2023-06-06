@@ -89,7 +89,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
 ```
 
 
-Şimdi de sol bölmede yer alacak başlık ayarlamalarını yapmaya geldi sıra. `StackPannel` kod bloğunu kullanarak sol bölmede yazıların nasıl hizalanacağını **_(VerticalAligmnet)_**, yazı boyutunu **_(FontSize)_**, yazı boyutu ağırlığını _**(FontWeight)_**, yazıyı (Text), yazı rengini belirtmek için(Foreground) ve son olarak da yazının nerde bulunacağını(TextAligment) belirleyerek projemizi oluşturmaya devam ediyoruz. Bu kısımda böylelikle arayüzde bulunan yazıların bütün özellikleri hazırlanmış oldu.
+Şimdi de sol bölmede yer alacak başlık ayarlamalarını yapmaya geldi sıra. `StackPannel` kod bloğunu kullanarak sol bölmede yazıların nasıl hizalanacağını **_(VerticalAligmnet)_**, yazı boyutunu **_(FontSize)_**, yazı boyutu ağırlığını **_(FontWeight)_**, yazıyı **_(Text)_**, yazı rengini belirtmek için(Foreground) ve son olarak da yazının nerde bulunacağını **_(TextAligment)_** belirleyerek projemizi oluşturmaya devam ediyoruz. Bu kısımda böylelikle arayüzde bulunan yazıların bütün özellikleri hazırlanmış oldu.
 
 ```
                 <StackPanel Margin="0 120 0 0 "
@@ -128,6 +128,18 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
                          Opacity="0.6" />
 ```
 
+>Uygulamada görsel anlamda daha etkin kılabilmek için renki bir tike sahip buton oluşturdum.
+
+Şimdi de sıra **sağ işlemler** adımıyla devam ediyoruz. Burda da hemen hemen benzer adımlarla işlem basamaklarına devam ediyoruz. Kenarlıklara tıklandığında hareket ettirebilmek **_(MouseDown)_** özelliğini kullanarak kenarlar üzerinde hareket işlemini tamamlamış oluyoruz. 
+
+```
+        <Border Grid.Column="1"
+                Background="#ffffff"
+                CornerRadius="0 10 10 0"
+                MouseDown="Border_MouseDown">
+```
+
+**Kapama ikonlarına** gelecek olursak bu kısımda `materialDEsign` paketinin yüklü olmuş olması gerekiyor. Yani:
 
 
 
