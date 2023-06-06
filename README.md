@@ -72,6 +72,64 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
         </Grid.ColumnDefinitions>
 ```
 
+**Sol işlemler** adımıyla devam edeceğiz burda sol bölmede yer alacak ayarlamalar yapılacak. `border` kodunu kullanarak kenar kıvrımlarını(CornerRadius), arka plan rengini(Background) ve sol bölme boyutunun değişkenliğini(ClipToBounds) kullanarak gerekli ayarlmalar yapılır.
+
+```
+        <Border Background="#FFF5B8"
+                CornerRadius="10 0 0 10"
+                ClipToBounds="True">
+
+            <Border.Clip>
+
+                <RectangleGeometry Rect="0,0,400,605"
+                                   RadiusX="10"
+                                   RadiusY="10" />
+
+            </Border.Clip>
+```
+
+
+Şimdi de sol bölmede yer alacak başlık ayarlamalarını yapmaya geldi sıra. `StackPannel` kod bloğunu kullanarak sol bölmede yazıların nasıl hizalanacağını(VerticalAligmnet), yazı boyutunu(FontSize), yazı boyutu ağırlığını(FontWeight), yazıyı(Text), yazı rengini belirtmek için(Foreground) ve son olarak da yazının nerde bulunacağını(TextAligment) belirleyerek projemizi oluşturmaya devam ediyoruz. Bu kısımda böylelikle arayüzde bulunan yazıların bütün özellikleri hazırlanmış oldu.
+
+```
+                <StackPanel Margin="0 120 0 0 "
+                        VerticalAlignment="Top">
+
+                    <TextBlock FontSize="30"
+                               FontWeight="Light"
+                               Text="𝒟𝓊ℊ𝓊𝓃 𝒟𝒶𝓋ℯ𝓉𝒾𝓎ℯ𝓈𝒾"
+                               Foreground="#080202"
+                               TextAlignment="Center" />
+
+                    <TextBlock FontWeight="Light"
+                               FontSize="16"
+                               Foreground="#080202"
+                               TextAlignment="Center"
+                               Text="Lütfen size gönderilen davetiyeye"
+                               Margin="0 15 0 3" />
+
+                    <TextBlock FontSize="16"
+                               FontWeight="Light"
+                               Text="başvurunuzu yapın."
+                               Foreground="#080202"
+                               TextAlignment="Center" />
+
+                </StackPanel>
+```
+
+Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için Èllipse` kod bloğunu kullanarak daireler oluşturuyoruz. Ellipse ögesinin `Fill` özelliğini kullanarak oluşturduğumuz dairelere arka plan rengi vermiş olduk. `Margin` ile uygulamanın kenar boşluklarını ayarladık ve son olarak Òpacity` özelliği ile opaklık ayarlamalarını gerçekleştirdik.
+
+```
+                <Ellipse Width="500"
+                         Height="500"
+                         VerticalAlignment="Bottom"
+                         Fill="#5eccb4"
+                         Margin="50 0 0 -200"
+                         Opacity="0.6" />
+```
+
+
+
 
 
 
