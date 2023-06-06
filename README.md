@@ -72,7 +72,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
         </Grid.ColumnDefinitions>
 ```
 
-**Sol işlemler** adımıyla devam edeceğiz burda sol bölmede yer alacak ayarlamalar yapılacak. `border` kodunu kullanarak kenar kıvrımlarını(CornerRadius), arka plan rengini(Background) ve sol bölme boyutunun değişkenliğini(ClipToBounds) kullanarak gerekli ayarlmalar yapılır.
+**Sol işlemler** adımıyla devam edeceğiz burda sol bölmede yer alacak ayarlamalar yapılacak. `border` kodunu kullanarak kenar kıvrımlarını _(CornerRadius)_, arka plan rengini(Background) ve sol bölme boyutunun değişkenliğini(ClipToBounds) kullanarak gerekli ayarlmalar yapılır.
 
 ```
         <Border Background="#FFF5B8"
@@ -117,7 +117,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
                 </StackPanel>
 ```
 
-Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse` kod bloğunu kullanarak daireler oluşturuyoruz. Ellipse ögesinin `Fill` özelliğini kullanarak oluşturduğumuz dairelere arka plan rengi vermiş olduk. `Margin` ile uygulamanın kenar boşluklarını ayarladık ve son olarak `Opacity` özelliği ile opaklık ayarlamalarını gerçekleştirdik.
+Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse` kod bloğunu kullanarak daireler oluşturuyoruz. Ellipse ögesinin `Fill` özelliğini kullanarak oluşturduğumuz dairelere arka plan rengi vermiş olduk. `Margin` ile uygulamanın kenar boşluklarını ayarladık ve son olarak `Opacity` özelliği ile opaklık ayarlamalarını gerçekleştirdik. Birkaç tane bu dairelerden oluşturup kenarlık ayarlamalarını, arka plan renklerini ve opaklıklarını ayarlayarak uygulamamızın görsel anlamda daha iyi görünmesini sağlamış olduk böylelikle.
 
 ```
                 <Ellipse Width="500"
