@@ -141,7 +141,7 @@ Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse
 
 **Kapama ikonlarına** gelecek olursak bu kısımda `materialDesign` paketinin yüklü olmuş olması gerekiyor. Yani:
 
-
+![NuGet](https://github.com/bsrtk/LoginUser/assets/101363847/8d0f04d1-87e8-4b9b-bb88-0b5c7bb63ec7)
 
 
 
