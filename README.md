@@ -117,7 +117,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
                 </StackPanel>
 ```
 
-Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için Èllipse` kod bloğunu kullanarak daireler oluşturuyoruz. Ellipse ögesinin `Fill` özelliğini kullanarak oluşturduğumuz dairelere arka plan rengi vermiş olduk. `Margin` ile uygulamanın kenar boşluklarını ayarladık ve son olarak Òpacity` özelliği ile opaklık ayarlamalarını gerçekleştirdik.
+Ve uygulmamızı daha şık bir görünümde olmasını sağlamak için `Ellipse` kod bloğunu kullanarak daireler oluşturuyoruz. Ellipse ögesinin `Fill` özelliğini kullanarak oluşturduğumuz dairelere arka plan rengi vermiş olduk. `Margin` ile uygulamanın kenar boşluklarını ayarladık ve son olarak `Opacity` özelliği ile opaklık ayarlamalarını gerçekleştirdik.
 
 ```
                 <Ellipse Width="500"
