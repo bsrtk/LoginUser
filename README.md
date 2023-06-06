@@ -72,7 +72,7 @@ Uygulamayı iki bölmeye ayıracağız çünkü bir taraf başlık gibi yazılar
         </Grid.ColumnDefinitions>
 ```
 
-**Sol işlemler** adımıyla devam edeceğiz burda sol bölmede yer alacak ayarlamalar yapılacak. `border` kodunu kullanarak kenar kıvrımlarını _(CornerRadius)_, arka plan rengini(Background) ve sol bölme boyutunun değişkenliğini(ClipToBounds) kullanarak gerekli ayarlmalar yapılır.
+**Sol işlemler** adımıyla devam edeceğiz burda sol bölmede yer alacak ayarlamalar yapılacak. `border` kodunu kullanarak kenar kıvrımlarını **_(CornerRadius)_**, arka plan rengini **_(Background)_** ve sol bölme boyutunun değişkenliğini **_(ClipToBounds)_** kullanarak gerekli ayarlmalar yapılır.
 
 ```
         <Border Background="#FFF5B8"
